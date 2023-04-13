@@ -136,7 +136,7 @@ for (var i = 2; i <= 11; i++)
 		}
 
 		const image = document.createElement('img');
-		image.src  = "../best 21/bestCardPictures/" + String(i) + String(mast) + '.png';
+		image.src  = "/bestCardPictures/" + String(i) + String(mast) + '.png';
 		image.style.height = '185px';
 		image.style.margin = '5px';
 		document.querySelector('.number').appendChild(image);
@@ -167,7 +167,7 @@ while (w != 1)
 		if (re == mas[e]) 
 		{
 			const image = document.createElement('img');
-			image.src  = "../best 21/bestCardPictures/" + re + '.png';
+			image.src  = "/bestCardPictures/" + re + '.png';
 			image.style.height = '185px';
 			image.style.margin = '5px';
 			document.querySelector('.number1').appendChild(image);
@@ -207,7 +207,7 @@ while (w != 1)
 		if (re == mas[e]) 
 		{
 			const image = document.createElement('img');
-			image.src  = "../best 21/bestCardPictures/" + re + '.png';
+			image.src  = "/bestCardPictures/" + re + '.png';
 			image.style.height = '185px';
 			image.style.margin = '5px';
 			document.querySelector('.number-d').appendChild(image);
@@ -275,7 +275,7 @@ while (w != 1)
 				sum.textContent = Number(sum.textContent) + Number(root);
 				const image = document.createElement('img');
 				//image.src  = "../best 21/bestCardPictures/" + String(i) + String(mast) + '.png';
-				image.src  = "../best 21/bestCardPictures/" + String(res) + '.png';
+				image.src  = "/bestCardPictures/" + String(res) + '.png';
 				image.style.height = '185px';
 				image.style.margin = '5px';
 				document.querySelector('.number1').appendChild(image);
@@ -317,7 +317,7 @@ function oneButtonClick(){
 	choiseDiv.style.display = "none";
 	let masti = Math.round(Math.random() * 3 + 1);
 	const image = document.createElement('img');
-	image.src  = "../best 21/bestCardPictures/" + root + String(masti) + ".png";
+	image.src  = "/bestCardPictures/" + root + String(masti) + ".png";
 	image.style.height = '185px';
 	image.style.margin = '5px';
 	document.querySelector('.number1').appendChild(image);
@@ -338,7 +338,7 @@ function elevenButtonClick(){
 	choiseDiv.style.display = "none";
 	let masti = Math.round(Math.random() * 3 + 1);
 	const image = document.createElement('img');
-	image.src  = "../best 21/bestCardPictures/" + root + String(masti) + ".png";
+	image.src  = "/bestCardPictures/" + root + String(masti) + ".png";
 	image.style.height = '185px';
 	image.style.margin = '5px';
 	document.querySelector('.number1').appendChild(image);
@@ -387,7 +387,7 @@ function stopButtonClick(){
 				if (res == mas[e]) 
 				{
 					const image = document.createElement('img');
-					image.src  = "../best 21/bestCardPictures/" + res + '.png';
+					image.src  = "/bestCardPictures/" + res + '.png';
 					image.style.height = '185px';
 					image.style.margin = '5px';
 					document.querySelector('.number-d').appendChild(image);
@@ -526,7 +526,7 @@ for (var i = 2; i <= 11; i++)
 		let child = document.getElementById("num1");
 		number.removeChild(child);
 		const image = document.createElement('img');
-		image.src  = "../best 21/bestCardPictures/" + String(i) + String(mast) + '.png';
+		image.src  = "/bestCardPictures/" + String(i) + String(mast) + '.png';
 		image.style.height = '185px';
 		image.style.margin = '5px';
 		document.querySelector('.number').appendChild(image);
@@ -557,7 +557,7 @@ while (w != 1)
 			let child = document.getElementById("num2");
 			number1.removeChild(child);
 			const image = document.createElement('img');
-			image.src  = "../best 21/bestCardPictures/" + re + '.png';
+			image.src  = "/bestCardPictures/" + re + '.png';
 			image.style.height = '185px';
 			image.style.margin = '5px';
 			document.querySelector('.number1').appendChild(image);
@@ -599,7 +599,7 @@ while (w != 1)
 			let child = document.getElementById("num1-d");
 			number_d.removeChild(child);
 			const image = document.createElement('img');
-			image.src  = "../best 21/bestCardPictures/" + re + '.png';
+			image.src  = "/bestCardPictures/" + re + '.png';
 			image.style.height = '185px';
 			image.style.margin = '5px';
 			document.querySelector('.number-d').appendChild(image);
