@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hskua</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="bestStyle.css">
+</head>
+<body>
+<div class="start_menu">
+<h1>Best 21</h1>
+<h3>Правила:</h3>
+<p>Привет бездарь!
+<br>Тут сейчас типо будут объяснены какие-то правила
+<br>Если в крации, то цель набрать больше дилера, но не больше 21
+<br>Колода из 54 карт
+<br>Номиналы:
+<br>От вальта до короля - 10
+<br>Туз 1 или 11(сам выберешь)
+<br>Все остальные как на самой карте</p>
+<button class="start">Ало</button>
+</div>
+<div class="end_menu">
+<h1>Закончились деньги?<br>Бездарь!!!</h1>
+<button class="reload">Начать заново</button>
+</div>
+<div class="all">
+	<div class="advertising">
+		<p>Здесь могла быть ваша реклама(</p>
+	</div>
+	<div class="balance">
+		<p>Ваш баланс:</p>
+		<p class="count">1000</p>
+		
+	</div>
+	
+	<div class="bid">
+	<p>Ставка</p>
+	</div>
+	
+<div class="bids">
+	<input type="text" placeholder="Введите ставку..." value="100" class="text">
+	<input type="range" min="100" max="1000" value="100" step="50" class="range">
+	<div class="btn">
+	<button class="min">Мин</button>
+	<button class="max">Макс</button>
+	</div>
+	<button class="enter">Ставка</button>
+</div>
+
+<div class="coop">
+	<div class="results">
+	<p>Вы победили<br>Выигрыш составил:</p>
+	<p class="win"></p>
+	<button class="return">Заново</button>
+	</div>
+	
+	<div class="results1">
+	<p>Ничья<br>Вы не потеряли свою ставку</p>
+	<p class="draw"></p>
+	<button class="return">Заново</button>
+	</div>
+	
+	<div class="results2">
+	<p>Проигрыш<br>Вы потеряли:</p>
+	<p class="lose"></p>
+	<button class="return">Заново</button>
+	</div>
+
+
+	
+	<div class="user">
+		<div class="article">
+			<p class="number"></p>
+			<p class="number1"></p>
+		</div>
+	</div>
+	<p class="point">Ваш счёт:</p>
+	<p class="sum"></p>
+	
+	<p class="point-d">Счёт дилера:</p>
+	<p class="sum-d"></p>
+	
+<p class="container"></p>
+
+<div class="dealer">
+<div class="article-d">
+<p class="number-d"></p>
+<p class="number1-d"><img src="../best 21/bestCardPictures/1_56.png" class="img_d"></p>
+</div>
+</div>
+</div>
+
+
+<div class="function_btn">
+<button class="add">Add card</button>
+<button class="stop">Stop</button>
+<div class="choise">
+<button class="choise_one">1</button>
+<button class="choise_eleven">11</button>
+</div>
+</div>
+</div>
+<script src="bestScript.js"></script>
+</body>
+</html>
